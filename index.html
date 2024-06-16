@@ -13,21 +13,26 @@
     </header>
 
     <main>
-
+        <!-- section inroduction -->
+        <section class="intro mid">
+            <p>
+                Masukkan suhu derajat Celcius (&deg;C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).
+            </p>
+        </section>
 
         <!-- Section Celcius -->
         <section class="input-container mid">
             <header>
-                <h3>Celcius (&deg;C)</h3>
+                <h3>Celcius (&deg;C):</h3>
             </header>
 
             <section>
                 <input type="number" id="input" name="celcius">
 
-                <section>
-                    <button class="button blue">Konversi</button>
-                    <button class="button">Reset</button>
-                    <button class="button">Reverse</button>
+                <section class="button-container">
+                    <button class="button green">Konversi</button>
+                    <button class="button red">Reset</button>
+                    <button class="button grey">Reverse</button>
                 </section>
             </section>
         </section>
@@ -37,11 +42,11 @@
             <!-- Section Fahrenheit -->
             <section>
                 <header>
-                    <h3>Fahrenheit (&deg;F)</h3>
+                    <h3>Fahrenheit (&deg;F):</h3>
                 </header>
     
                 <section>
-                    <textarea></textarea>
+                    <textarea id="output"></textarea>
                 </section>
             </section>
     
@@ -52,7 +57,7 @@
                 </header>
     
                 <section>
-                    <textarea></textarea>
+                    <textarea class="calculate"></textarea>
                 </section>
             </section>
         </section>

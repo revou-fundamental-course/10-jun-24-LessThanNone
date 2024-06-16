@@ -10,26 +10,83 @@ body{
     font-weight: bold;
 }
 
+h3 {
+    font-size: 25px;
+}
+
+.intro {
+    font-size: 20px;
+}
 .mid{
     text-align: center;
 }
 
-#input {
+#input, #output{
     width: 350px;
     height: 35px;
     font-size: 25px;
+    border-radius: 7px;
+    resize: none;
+
 }
-.blue {
-background-color: #4A90E2;
+
+.green {
+background-color: #20C94B;
 color: #ffffff;
 }
 
+.red {
+    background-color: #d41a1a;
+    color: #ffffff;
+}
+
+.grey {
+    background-color: #8e8e8e;
+    color: #ffffff;
+}
+
+.green:hover {
+    background-color: #1da23e;
+    color: #ffffff;
+}
+
+.red:hover {
+    background-color: #b31717;
+    color: #ffffff;
+}
+
+.grey:hover {
+    background-color: #6d6d6d;
+    color: #ffffff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
 
 .button{
     margin-top: 15px;
     border: none;
     border-radius: 5px;
+    width: 225px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 250ms;
 }
+
+
+.calculate{
+    resize: none;
+    background-color: #ffffff;
+    width: 350px;
+    height: 70px;
+    border-radius: 7px;
+    font-size: 25px;
+}
+
 
 .subject-info {
     font-family: poppins;

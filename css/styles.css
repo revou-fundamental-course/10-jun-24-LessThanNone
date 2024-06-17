@@ -17,17 +17,37 @@ h3 {
 .intro {
     font-size: 20px;
 }
+
 .mid{
     text-align: center;
 }
 
+.text-margin-top {
+    margin-top: 50px;
+}
 #input, #output{
     width: 350px;
     height: 35px;
     font-size: 25px;
     border-radius: 7px;
     resize: none;
+}
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button{
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 225px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 250ms;
 }
 
 .green {
@@ -60,24 +80,6 @@ color: #ffffff;
     color: #ffffff;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.button{
-    margin-top: 15px;
-    border: none;
-    border-radius: 5px;
-    width: 225px;
-    height: 35px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: all 250ms;
-}
-
-
 .calculate{
     resize: none;
     background-color: #ffffff;
@@ -86,7 +88,6 @@ color: #ffffff;
     border-radius: 7px;
     font-size: 25px;
 }
-
 
 .subject-info {
     font-family: poppins;

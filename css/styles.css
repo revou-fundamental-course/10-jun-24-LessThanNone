@@ -25,6 +25,7 @@ h3 {
 .text-margin-top {
     margin-top: 50px;
 }
+
 #input, #output{
     width: 350px;
     height: 35px;
@@ -50,6 +51,7 @@ h3 {
     transition: all 250ms;
 }
 
+/* styling warna button */
 .green {
 background-color: #20C94B;
 color: #ffffff;

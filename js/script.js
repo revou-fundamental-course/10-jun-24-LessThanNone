@@ -75,7 +75,7 @@ reverseButton.addEventListener('click', function() {
         output.value = celciusValue.toFixed(2);
         calculateOutput.innerHTML = `(${input.value}&deg;F - 32) × 5/9 = ${output.value}&deg;C`;
         formulaSection.hidden = false
-        formulaHead.headingHTML = `<h2>Cara konversi dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>`
+        formulaHead.headingHTML = `<h2>Cara konversi dari Fahrenheit (&deg;F) ke Celcius (&deg;C)</h2>`
         formulaContent.innerHTML = `Suhu <span class="subject-info"> ${output.value} </span> dalam derajat Celcius (&deg;C) sama dengan suhu <span class="subject-info"> ${input.value} </span> dalam derajat Fahrenheit (&deg;F) dikurang 32 dikali 5/9`
         formulaRumus.innerHTML = `<span class="subject-info"> ${output.value}<sub>(&deg;C)</sub> = (${input.value}<sub>(&deg;F)</sub> - 32) x 5/9 </span>`
       } else {
@@ -83,4 +83,3 @@ reverseButton.addEventListener('click', function() {
       }
     }
   });
-

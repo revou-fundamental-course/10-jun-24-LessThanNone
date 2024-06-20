@@ -31,6 +31,7 @@ convertButton.addEventListener('click', function() {
     output.value = fahrenheitValue.toFixed(2);
     calculateOutput.innerHTML = `(${input.value}&deg;C × 9/5) + 32 = ${output.value}&deg;F`;
     formulaSection.hidden = false
+    formulaHead.innerHTML = `<p id="formula-head">Cara konversi dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</p>` 
     formulaContent.innerHTML = `Suhu <span class="subject-info"> ${output.value} </span> dalam derajat Fahrenheit (°F) sama dengan suhu <span class="subject-info"> ${input.value} </span> dalam derajat Celcius (°C) dikali 9/5 ditambah 32`
     formulaRumus.innerHTML = `<span class="subject-info"> ${output.value}<sub>(&deg;F)</sub> = (${input.value}<sub>(&deg;C)</sub> x 9/5) + 32 </span>`
   } else {
@@ -75,9 +76,9 @@ reverseButton.addEventListener('click', function() {
         output.value = celciusValue.toFixed(2);
         calculateOutput.innerHTML = `(${input.value}&deg;F - 32) × 5/9 = ${output.value}&deg;C`;
         formulaSection.hidden = false
-        formulaHead.headingHTML = `<h2>Cara konversi dari Fahrenheit (&deg;F) ke Celcius (&deg;C)</h2>`
+        formulaHead.innerHTML = `<p id="formula-head">Cara konversi dari Fahrenheit (&deg;F) ke Celcius (&deg;C)</p>`
         formulaContent.innerHTML = `Suhu <span class="subject-info"> ${output.value} </span> dalam derajat Celcius (&deg;C) sama dengan suhu <span class="subject-info"> ${input.value} </span> dalam derajat Fahrenheit (&deg;F) dikurang 32 dikali 5/9`
-        formulaRumus.innerHTML = `<span class="subject-info"> ${output.value}<sub>(&deg;C)</sub> = (${input.value}<sub>(&deg;F)</sub> - 32) x 5/9 </span>`
+        formulaRumus.innerHTML = `<p class="subject-info"> ${output.value}<sub>(&deg;C)</sub> = (${input.value}<sub>(&deg;F)</sub> - 32) x 5/9 </p>`
       } else {
         alert('Tolong masukkan derajat suhunya!');
       }

@@ -32,6 +32,7 @@ h3 {
     font-size: 25px;
     border-radius: 7px;
     resize: none;
+    font-family: Arial, sans-serif;
 }
 
 .button-container {
@@ -89,10 +90,12 @@ color: #ffffff;
     height: 70px;
     border-radius: 7px;
     font-size: 25px;
+    font-family: Arial, sans-serif;
 }
 
 .subject-info {
-    font-family: poppins;
+    font-family: math;
+    font-weight: bold;
 }
 
 
